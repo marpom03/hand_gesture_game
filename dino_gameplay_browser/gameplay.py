@@ -36,7 +36,7 @@ def main():
     global recognized_gesture
 
     # Ścieżka do pliku modelu MediaPipe Gesture Recognizer
-    model_path = '.../dino_gameplay/gesture_recognizer_final_version.task'  # Podmień na faktyczną ścieżkę do modelu
+    model_path = 'gesture_recognizer_final_version.task'  # Podmień na faktyczną ścieżkę do modelu
 
     # Konfiguracja GestureRecognizer
     options = GestureRecognizerOptions(
