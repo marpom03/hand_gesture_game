@@ -1,4 +1,4 @@
-Instrukcja uruchomienia gry Dino Chrome kontrolowanej gestami na systemach Linux korzystając z gry dostępnej w przeglądarce
+# Instrukcja uruchomienia gry Dino Chrome kontrolowanej gestami na systemach Linux korzystając z gry dostępnej w przeglądarce
 
 W tym repozytorium znajduje się projekt, który umożliwia sterowanie grą Dino Chrome za pomocą gestów rąk przy użyciu modelu MediaPipe. Poniżej znajduje się szczegółowa instrukcja krok po kroku, jak uruchomić grę i sterować nią za pomocą gestów.
 
