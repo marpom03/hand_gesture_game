@@ -6,7 +6,7 @@ W tym repozytorium znajduje się projekt, który umożliwia sterowanie grą Dino
 Pierwszym krokiem jest sklonowanie repozytorium na swoje urządzenie:
 
 `git https://github.com/marpom03/hand_gesture_game.git`
-`cd hand_gesture_game`
+`cd hand_gesture_game/dino_gameplay_browser`
 
 ### 2. Instalacja zależności
 
