@@ -185,8 +185,6 @@ class Dinosaur:
 
     def draw(self, SCREEN):
         SCREEN.blit(self.image, (self.dino_rect.x, self.dino_rect.y))
-        # Tymczasowo dodaj prostokąt do debugowania
-        # pygame.draw.rect(SCREEN, (255, 0, 0), self.dino_rect, 2)
 
 # Klasa Przeszkód
 class Obstacle:
@@ -350,6 +348,9 @@ def main():
 
     # Initialize camera capture
     cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+    
+    # If you are using Linux uncomment line below  
+    #cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
     if not cap.isOpened():
         print("Nie udało się otworzyć kamery.")
         gesture_thread.stop()
