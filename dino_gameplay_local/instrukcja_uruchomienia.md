@@ -1,4 +1,3 @@
-
 # Instrukcja uruchomienia lokalnej gry Dino Chrome kontrolowanej gestami
 
 Poniżej znajduje się instrukcja, jak uruchomić lokalną wersję gry **Dino** w Pythonie, sterowaną gestami. Gra jest oparta na bibliotece **Pygame** i wykorzystuje model **MediaPipe** do rozpoznawania gestów rąk.
@@ -23,7 +22,19 @@ Upewnij się, że masz zainstalowanego Pythona oraz wszystkie niezbędne bibliot
 **UWAGA!**
 Ważna jest odpowiednia wersja Pythona, którą obsługuje MediaPipe. Musisz używać wersji **Pythona 3.7** lub nowszej w wersji **64 bitowej**.
 
-### 3. Uruchomienie gry
+### 3. Dla użytkowników Linuxa
+
+Gra jest napisana pod Windowsa - jest jedna funkcja, która działa tylko na Windowsie. Jeśli korzystasz z Linuxa przed uruchomieniem gry wyświetl kod i zakomentuj linię 350 i odkomentuj linię pod nią. Dzięki temu gra będzie miała dostęp do kamery. 
+
+Zakomentuj to:
+
+` cap = cv2.VideoCapture(0, cv2.CAP_DSHOW) `
+
+Odkomentuj to:
+
+` cap = cv2.VideoCapture(0, cv2.CAP_V4L2) `
+
+### 4. Uruchomienie gry
 
 Aby uruchomić grę, wykonaj poniższą komendę w terminalu:
 
@@ -32,7 +43,7 @@ Aby uruchomić grę, wykonaj poniższą komendę w terminalu:
 
 Gra uruchomi okno Pygame i zacznie rozpoznawać gesty rąk, które będą kontrolować postać dinozaura. Kamera musi być włączona, aby system mógł rozpoznać gesty.
 
-### 4. Sterowanie grą za pomocą gestów
+### 5. Sterowanie grą za pomocą gestów
 
 Dostępne gesty:
 
@@ -44,7 +55,7 @@ System rozpozna te gesty i wyśle odpowiednie polecenia do gry:
 -   Gest otwartej dłoni (`open_hand`) spowoduje, że dinozaur wykona skok.
 -   Gest wskazującego palca (`pointer`) spowoduje, że dinozaur zacznie kucać.
 
-### 5. Zakończenie gry
+### 6. Zakończenie gry
 
 Aby zakończyć grę, wystarczy zamknąć okno Pygame lub nacisnąć `Ctrl+C` w terminalu.
 
