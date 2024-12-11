@@ -24,7 +24,7 @@ Ważna jest odpowiednia wersja Pythona, którą obsługuje MediaPipe. Musisz uż
 
 ### 3. Dla użytkowników Linuxa
 
-Gra jest napisana pod Windowsa - jest jedna funkcja, która działa tylko na Windowsie. Jeśli korzystasz z Linuxa przed uruchomieniem gry wyświetl kod i zakomentuj linię 350 i odkomentuj linię pod nią. Dzięki temu gra będzie miała dostęp do kamery. 
+Gra jest napisana pod Windowsa - jest jeden parametr, która działa tylko na Windowsie. Jeśli korzystasz z Linuxa przed uruchomieniem gry wyświetl kod i zakomentuj linię 350 i odkomentuj linię pod nią. Dzięki temu gra będzie miała dostęp do kamery. 
 
 Zakomentuj to:
 
